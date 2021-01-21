@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+.headlines {
+color: darkblue;
+border: dashed;
+font-weight: 200;
+line-height: 3rem;
+font-size: 2rem;
+padding: 1rem;
+}
+
+body{
+  background-color: lightsteelblue;
+}
+
+li {
+  color: blueviolet;
+}
+
+table {
+  border: dotted;
+  border-color: red;
+  margin: 0.5rem;
+}
+
+tr {
+  border: dotted;
+  border-color: salmon;
+  margin: 0,5rem;
+}
+
+td {
+  border: solid;
+  border-color: lightpink;
+  padding: 2rem;
+}
