@@ -1,14 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
 .headlines {
-color: darkblue;
+color: green;
 border: dashed;
 font-weight: 200;
 line-height: 3rem;
 font-size: 2rem;
 padding: 1rem;
 }
+
+.topimage { 
+width: 100%;
+}
+
 
 .container_item{
 display: inline-block;
@@ -19,10 +25,24 @@ img {
 margin: 0;
 }
 
-body{
-  background-color: lightsteelblue;
+
+body {
+  display: grid;
+  grid-template-columns: 1rf;
+  grid-template-rows: 1rf auto 1rf;
+  justify-items: center;
+  align-items: center;
+  background-color: beige;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 li {
